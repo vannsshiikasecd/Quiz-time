@@ -1,0 +1,64 @@
+body{
+    background-image: url('/2384075.webp');
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+.main{
+    font-size: 16px;
+    color: azure;
+}
+.name{
+    font-size: 16px;
+    color: azure;
+    border:4px solid black;
+    padding: 5px;
+    width: 500px;
+    margin: 10px auto;
+    background-color: black;
+    
+}
+#quiz{
+    border: 4px solid black;
+    padding: 34px;
+    margin: 34px auto;
+    background-color: rgb(21, 124, 129);
+    width: 500px;
+    position: absolute;
+    top:230px;
+    left:500px;
+    
+    
+
+
+
+}
+#question{
+    margin-bottom: 20px;
+    border:2px solid black ;
+    background-color: azure;
+    margin: 15px 15px;
+    padding: 5px 5px;
+
+}
+#option{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+    padding: 5px;
+}
+button{
+    border: 2px solid black;
+    padding: 2px;
+    margin: 3px;
+    background-color: aliceblue;
+    color: black;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
